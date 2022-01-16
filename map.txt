@@ -1,0 +1,25 @@
+package Phase1eLearningAssiignment1;
+
+import java.util.*;
+
+public class UsesOfMap {
+	public static void main(String args[]){  
+	  Map<Integer,String> map=new HashMap<Integer,String>();  
+	  map.put(111,"Pawan kalyan");  
+	  map.put(112,"vamsi");  
+	  map.put(113,"tharun");    
+	  for(Map.Entry m:map.entrySet()){  
+	   System.out.println(m.getKey()+" "+m.getValue());  
+	  }  
+	 }  
+	} 
+	
+
+
+**************OUTPUT**************
+
+
+111 Pawan kalyan
+112 Vamsi
+113 tharun
+
