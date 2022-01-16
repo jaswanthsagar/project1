@@ -1,0 +1,43 @@
+package Phase1eLearningAssiignment1;
+
+import java.util.Scanner;
+
+public class RetunTypesMethods { 
+	    public int CompareNum()   
+	    {   
+	    	Scanner sc = new Scanner(System.in);
+	    	System.out.println("Enter x value");
+	    	int x = sc.nextInt();
+	    	System.out.println("Entery y value");
+	    	
+	        int y = sc.nextInt();  
+	        
+	        System.out.println("x = " + x + "\ny = " + y);  
+	        if(x>y)  
+	            return x;  
+	        else  
+	            return y;  
+	    }   
+	    public static void main(String ar[])   
+	    {  
+	       RetunTypesMethods obj = new RetunTypesMethods();  
+	        int result = obj.CompareNum();  
+	        System.out.println("The greater number among x and y is: " + result);  
+	    }  
+	}  
+	
+
+
+
+****************OUTPUT****************
+
+Enter x value
+4
+Entery y value
+9
+x = 4
+y = 9
+The greater number among x and y is: 9
+
+
+	
